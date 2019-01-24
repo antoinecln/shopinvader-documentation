@@ -16,24 +16,24 @@ Sommaire :
 8) Clonage d’un template Shopinvader
 9) Déploiement de la boutique Shopinvader
 
---------------
+
 1) Création d’un nouveau container
---------------
+=================
 
 Le but de cette étape est de créer un nouveau container qui vas accueillir notre LocomotiveCMS
 afin de le rendre disponible sous un nom de domaine 
 
 → Se rendre sur un site Registrar (Bureau d’enregistrement de noms de domaine) afin de réserver nouveau nom de domaine pour notre container
 
---------------
+
 2) Paramétrer le nom de domaine
---------------
+=================
 
 Toujours sur notre site Registrar, lors de la création du container plusieurs informations vont être demandée (à compléter plus tard)
 
---------------
+
 3) Installation de Ruby On Rails
---------------
+=================
 
 Le but de cette étape et de l’étape 4 et 5 sont de pouvoir installer LocomotiveCMS proprement. 
 
@@ -195,9 +195,9 @@ Si l’installation s’est bien déroulée, on devrait obtenir ceci :
 
 	Rails 5.2.0
 
---------------
+
 4) Installation de MongoDB
---------------
+=================
 
 Faire un apt update afin de mettre à jour la liste de nos paquets si cette commande n’a pas été effectuée précédemment. 
 
@@ -222,9 +222,9 @@ Le résultat devrait ressembler à ça :
     CGroup: /system.slice/mongodb.service
            └─2312 /usr/bin/mongod --unixSocketPrefix=/run/mongodb --config /etc/mongodb.conf
 
---------------
+
 5) Installation de Node.js
---------------
+=================
 
 Installer Node.js et npm en une seule commande :
 
@@ -234,9 +234,9 @@ On vérifie la version avec
 
 	nodejs -v 
 
---------------
+
 6) Installation de LocomotiveCMS
---------------
+=================
 
 Maintenant que tout nos outils sont installés, nous pouvons commencer la création d’une nouvelle application Ruby On Rails avec la commande :
 
@@ -339,9 +339,9 @@ Un second
 
 est requis. 
 
---------------
+
 7) Lancement du serveur LocomotiveCMS
---------------
+=================
 
 Et Enfin, lancer le serveur Rails avec la commande : 
 
@@ -357,6 +357,7 @@ Nous somme ensuite redirigé sur la page principale de configuration de notre CM
 
 
 8) Clonage d’un template Shopinvader
+=================
 
 Maintenant que votre LocomotiveCMS est opérationnel, il nous faut un template afin d’obtenir le rendu de la boutique côté client. 
 
