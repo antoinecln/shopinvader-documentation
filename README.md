@@ -41,7 +41,7 @@ Le but de cette étape et de l’étape 4 et 5 sont de pouvoir installer Locomot
 
 Se rendre dans notre nouveau container tout frais créé avec la commande :
 ```
-	ssh root@’votre_nom_d’hôte’
+ssh root@’votre_nom_d’hôte’
 ```
 
 ‘ssh’ correspond au type de connexion 
