@@ -62,6 +62,7 @@ Le Terminal devrait vous rendre la main sous cette forme :
 Effectuer un pwd afin de déterminer le chemin dans lequel on se trouve, normalement on se trouve à la racine de notre container, effectuer les différentes étapes dans l’ordre :
 
 a. Installation de rbenv et des Dépendances 
+--------------
 
 Dans un premier temps, on met à jours la liste des paquets :
 ```
@@ -120,7 +121,9 @@ Ensuite, il nous faut installer le plugin ruby-build, ce plugin vas ajouter la c
 
 A ce stade, nous avons installé rbenv et ruby-build, installons maintenant Ruby. 
 
-b. Installation de Ruby avec ruby-build 
+
+b. Installation de Ruby avec ruby-build
+--------------
 
 Lancer la commande suivante permettra de voir la liste complète des versions de Ruby disponible 
 ```
@@ -148,6 +151,7 @@ Le résultat devrait ressembler à ça :
 	ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
 
 c. Travailler avec les Gems
+--------------
 
 Les gems sont les processus et programmes nécessaires au bon fonctionnement de notre produit.
 
@@ -175,7 +179,7 @@ pour vérifier notre environnement et notre configuration des gems, le résultat
 
     
 d. Installation de Rails
-
+--------------
 
 On installe Rails avec la commande : 
 
